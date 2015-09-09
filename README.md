@@ -1,13 +1,17 @@
 What is this?
 =============
 
-This Apigee API proxy should be used when you have an App that needs to interact with 
+This Apigee API proxy should be used when you have an web App that needs to interact 
+with 
 Google and Apigee.  You want to submit the request to authenticate the user but you 
-don't want to store the Google credentials in the App.
+don't want to store the Google credentials in the web App.
 
 You have the App call this proxy and which invokes the Google API with the Google credentials 
 stored in the config.js file.  Google returns an access_token for this authenticated 
 user to the App (along with other profile info).
+
+Using a  proxy allows you to capture analytics on the caller, place in quotas / spike 
+arrests before calling Google.
 
 Requirements
 ============
