@@ -1,0 +1,26 @@
+{
+  "name": "google-sso-proxy",
+  "version": "1.0.0",
+  "description": "Allow someone to login via Google with a web server flow and get eheir profile",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.1",
+    "google-auth-library": "^0.9.6",
+    "googleapis": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "http://host:domain.com/login"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/rdave"
+  },
+  "keywords": [
+    "google",
+    "single",
+    "signon"
+  ],
+  "author": "Rajeev Dave",
+  "license": "MIT"
+}

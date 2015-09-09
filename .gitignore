@@ -1,0 +1,12 @@
+.DS_Store
+.idea
+.iml
+.pushapi
+.swp
+*.iml
+config.js
+deployNodeApp.bash
+exclude
+node_modules
+scratchArea
+

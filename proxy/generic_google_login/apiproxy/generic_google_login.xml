@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="generic_google_login">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1438384620895</CreatedAt>
+    <CreatedBy>rdave@apigee.com</CreatedBy>
+    <DisplayName>login-google-user</DisplayName>
+    <LastModifiedAt>1438384620895</LastModifiedAt>
+    <LastModifiedBy>rdave@apigee.com</LastModifiedBy>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://deployNodeApp.bash</Resource>
+        <Resource>node://node_modules_express.zip</Resource>
+        <Resource>node://node_modules_google-auth-library.zip</Resource>
+        <Resource>node://node_modules_googleapis.zip</Resource>
+        <Resource>node://node_modules_http.zip</Resource>
+        <Resource>node://node_modules_readline.zip</Resource>
+        <Resource>node://node_modules_usergrid.zip</Resource>
+        <Resource>node://package.json</Resource>
+        <Resource>node://server.js</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
